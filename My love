@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Love </title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;500&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #ffe6f0, #fff0f5);
+        color: #333;
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3em;
+        color: #e91e63;
+        margin-bottom: 20px;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    .letter {
+        font-size: 1.2em;
+        line-height: 1.7;
+        background: rgba(255,255,255,0.8);
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+        animation: fadeIn 3s ease-in-out;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .gallery img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+
+    audio {
+        margin-bottom: 30px;
+        width: 100%;
+        outline: none;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px);}
+        to { opacity: 1; transform: translateY(0);}
+    }
+
+    footer {
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #555;
+    }
+
+    @media (max-width: 600px) {
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+  <audio controls autoplay loop>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h1>To My LOVE PRINCE OLUWASEUN </h1>
+    
+    <div class="letter">
+        <div class="letter">
+    My dearest bae,<br><br>
+    Even though we are miles apart, not a day goes by that I don’t think of you. I miss you more than words can capture, and every moment without you reminds me of how deeply you mean to me. Yet, even from afar, I am always rooting for you, celebrating every step you take, and cheering for every victory that comes your way.<br><br>
+    From your very first achievement to the milestones you’ve reached now, I have been and will always be proud of you. Each success of yours fills my heart with joy, and I know this is just the beginning of the many wins that life has in store for you. Your strength, dedication, and passion inspire me every single day.<br><br>
+    No matter the distance, my heart is with you. I am always here for you, supporting you silently but unwaveringly, loving you endlessly, and waiting for the moments when we can share our dreams side by side. You are my heart, my pride, and my forever, and I’ll always be here — through every high and low loving you more than words can express.<br><br>
+    Forever yours,<br>
+    [CATALINA]
+</div>
+
+    <div class="gallery">
+        <img src="picture1.jpg" alt="Sweet Memory 1">
+        <img src="picture2.jpg" alt="Sweet Memory 2">
+        <img src="picture3.jpg" alt="Sweet Memory 3">
+        <img src="picture4.jpg" alt="Sweet Memory 4">
+        <img src="picture5.jpg" alt="Sweet Memory 5">
+    </div>
+
+    <audio controls autoplay loop>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <footer>Made with ❤️ just for you</footer>
+</div>
+</body>
+</html>
