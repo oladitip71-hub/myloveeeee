@@ -1,0 +1,9 @@
+love-letter/
+│
+├─ index.html          ← Your main webpage (the code we created)
+├─ picture1.jpg        ← First picture
+├─ picture2.jpg
+├─ picture3.jpg
+├─ picture4.jpg
+├─ picture5.jpg
+└─ your-song.mp3       ← The love song
